@@ -3,6 +3,7 @@ import random as r
 words = ["toys", "toothpaste", "hope", "pump", "quicksand", "transport", "skirt", "thunder", "profit", "decision", "eyes", "birth", "trouble", "idea", "rate", "reward", "toy", "arm", "plane", "respect", "crime", "word", "wood", "apparatus", "tree", "judge", "tin", "oatmeal", "trail", "visitor", "key", "bead", "scene", "teeth", "force", "self", "tray", "snow", "driving", "flame", "underwear", "crow", "school", "throat", "existence", "laugh", "rock", "tail", "nation", "air"]
 
 
+
 def mainMenu():
   loop = True
   try:
@@ -25,7 +26,8 @@ def getLowerWord():
 def getUpperWord():
   return str.upper(r.choice(words))
 
-def 
+def generatePW():
+
 
 mainMenu()
 
